@@ -23,6 +23,8 @@ class ToursController extends AbstractController
         $tour->setNights(7);
         $tour->setPrice(959.99);
         $tour->setDestination('California');
+        $tour->setImage('https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg');
+
 
 
         // tells Doctrine you want to (eventually) save the entry (no queries yet)
